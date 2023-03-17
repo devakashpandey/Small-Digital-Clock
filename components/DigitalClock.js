@@ -7,7 +7,6 @@ const DigitalClock = () => {
   let [cTime, setTime] = React.useState(time);
 
   let updateTime = () => {
-    let time = new Date().toLocaleTimeString();
     setTime(time);
   };
 
