@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(38, 41, 37);
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid cyan;
+  padding: 20px;
+}
+
+.timer {
+  font-weight: bold;
+  margin: 5px;
+  font-size: 55px;
+  color: white;
+}
+
+h1 {
+  margin: 50px;
+  color: rgb(234, 234, 71);
+  font-size: 45px;
+}
